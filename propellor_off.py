@@ -1,11 +1,7 @@
-import RPi.GPIO as GPIO
-import time
-GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)
-GPIO.setup(21,GPIO.OUT)
 
+import os
 
+speed = 250;
 
-print "LED off"
-GPIO.output(21,GPIO.HIGH)
-
+os.system("pigs p 21 "+str(speed));
+print "Propellor off"
