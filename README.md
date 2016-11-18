@@ -1,2 +1,2 @@
 # CoolTourHat
-This hat will let you know when an interesting person is close to you.
+This hat will do fancy things to tell you when an interesting person is close to you.
