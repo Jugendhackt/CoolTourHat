@@ -1,7 +1,7 @@
 #include "mbed.h"
 #include "ble/BLE.h"
 
-DigitalOut led(LED1, 1);
+DigitalOut led(LED1, 8);
 uint16_t customServiceUUID  = 0xA000;
 uint16_t readCharUUID       = 0xA001;
 uint16_t writeCharUUID      = 0xA002;
@@ -39,15 +39,15 @@ void writeCharCallback(const GattWriteCallbackParams *params)
         /* toggle LED if only 1 byte is written */
         if(params->len == 1) {
             led = params->data[0];
-            (params->data[0] == 0x00) ? printf("led on\n\r") : printf("led off\n\r"); // print led toggle
+            (params->data[0] == 0x00) ? Serial.println("led on\n\r") : Serial.println("led off\n\r"); // print led toggle
         }
         /* Print the data if more than 1 byte is written */
         else {
-            printf("Data received: length = %d, data = 0x",params->len);
+            /* printf("Data received: length = %d, data = 0x",params->len); */
             for(int x=0; x < params->len; x++) {
-                printf("%x", params->data[x]);
+                /*Serial.printf(F("%x"), params->data[x]);*/
             }
-            printf("\n\r");
+            Serial.println("\n\r");
         }
         /* Update the readChar with the value of writeChar */
         BLE::Instance(BLE::DEFAULT_INSTANCE).gattServer().write(readChar.getValueHandle(), params->data, params->len);
@@ -81,14 +81,14 @@ void bleInitComplete(BLE::InitializationCompleteCallbackContext *params)
     /* Start advertising */
     ble.gap().startAdvertising();
 }
-
 /*
  *  Main loop
 */
-int main(void)
+void setup(void)
 {
+    Serial.begin(9600);
     /* initialize stuff */
-    printf("\n\r********* Starting Main Loop *********\n\r");
+    Serial.println("\n\r********* Starting Main Loop *********\n\r");
     
     BLE& ble = BLE::Instance(BLE::DEFAULT_INSTANCE);
     ble.init(bleInitComplete);
@@ -98,7 +98,12 @@ int main(void)
     while (ble.hasInitialized()  == false) { /* spin loop */ }
 
     /* Infinite loop waiting for BLE interrupt events */
-    while (true) {
-        ble.waitForEvent(); /* Save power */
+    while(true) {
+    ble.waitForEvent(); /* Save power */
     }
 }
+
+void loop() {
+
+}
+
