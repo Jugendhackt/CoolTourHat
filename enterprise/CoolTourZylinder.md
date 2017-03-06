@@ -5,18 +5,22 @@
 	Red Bear Lab BLE Nano
 	Red Bear Programmer
 	Dünne Kabel
+	Ein Stück [Lochrasterplatte] (https://cdn-reichelt.de/bilder/web/xxl_ws/C900/H25PR075.png)
+	1 ~500Ω Widerstand
+	1 [Kondensator] https://cdn.sparkfun.com//assets/parts/2/3/0/8/08982-03-L.jpg)(100µF- 1000µF)
 	Akkupack für Smartphones
 		Maße sind am wichtigsten!
 		Idealerweiße klein und flach
-		mindestens 5000mAh (DC5V / 2A)  
-##Werkzeug:
-	Breadboard und Breadboard Kabel
-	Lötkolben
-	Dritte Hand
-	Seitenschneider
-	Heißkleber
+		mindestens 5000mAh (DC5V / 2A)
+	Altes (kaputtes) USB Kabel (wird zerschnitten)
+##Hilfreiches Werkzeug:
+	Breadboard und Jumper Kabel [Ebay](http://www.ebay.de/itm/830-Kontakte-Steckboard-Steckbrett-Breadboard-mit-Jumper-Wire-Kabel-Set-/272102548188?hash=item3f5a9362dc:g:Tz8AAOSwYaFWeOx4)
+	Lötkolben, Lötzinn, Entlötlitze
+	[Dritte Hand](https://img.conrad.de/medias/global/ce/5000_5999/5800/5880/5881/588124_LB_00_FB.EPS_1000.jpg)
+	[Seitenschneider](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Elektronikschere_%28smial%29.jpg/1024px-Elektronikschere_%28smial%29.jpg)
+	[Heißklebepistole](http://i.ebayimg.com/images/a/(KGrHqIOKosE0fcUZ!qPBN(SQeNZ!Q~~/s-l300.jpg)
 	sehr dünne Nadel (muss durch die Löcher im ws2812b Stripe passen)
-	stabiles schwarzes Garn
+	stabiles schwarzes Garn (wenn es sich leicht mit der Hand zerreißen lässt, ist es nicht stabil genug)
 
 >Achtung, dieses Projekt beinhaltet einige schwierige Lötstellen. Wenn du selbst wenig erfahrung im Löten hast, suche dir für die schwierigeren Stellen hilfe von einem Profi.
 
@@ -27,12 +31,15 @@
 ####1.3 Problemlösungstipps
 
 ###2. LED Stripes testen
-Bevor die LED-Streifen verbaut werden, müssen wir sichergehen, dass sie einwandfrei funktionieren. 
-####2.1 Anschließen
+Bevor die LED-Streifen verbaut werden, muss sichergestellt werden, dass sie auch einwandfrei funktionieren. Zum Aufbau des Tests eignen sich Breadboard und Jumperkabel.
+####2.1 Stromquelle basteln
+Um den Prozessor un die LEDs mit Strom versorgen zu können, kann man ein USB Kabel verwenden. Dieses wird durchgeschnitten, der Rote und der schwarze Draht wird abisoliert (grün und weiß werden nicht gebraucht). Dann die beiden Enden etwas verzinnen. 
+
+####2.2 Anschließen
+
+####2.3 Strandtest.ino ausführen
 TODO
-####2.2 Strandtest.ino ausführen
-TODO
-####2.3 Eventuell kaputte LEDs ausfindig machen
+####2.4 Eventuell kaputte LEDs ausfindig machen
 
 
 ###3. LED Stripes zuschneiden & löten
