@@ -1,18 +1,18 @@
 ![Enterprise Zylinder](Colors.JPG)
 ##Hardware & Zubehör:
-	Ein schöner Zylinder
-	mindestens 3m ws2812b LED Stripes (144 LED pro Meter) ![Ebay](http://www.ebay.de/sch/i.html?_odkw=ws2812b&_osacat=0&_from=R40&_trksid=p2045573.m570.l1311.R5.TR12.TRC2.A0.H0.Xws2812b+.TRS0&_nkw=ws2812b+144&_sacat=0)
-	Red Bear Lab BLE Nano
-	Red Bear Programmer
-	Dünne Kabel
-	Ein Stück [Lochrasterplatte] (https://cdn-reichelt.de/bilder/web/xxl_ws/C900/H25PR075.png)
-	1 ~500Ω Widerstand
-	1 [Kondensator] https://cdn.sparkfun.com//assets/parts/2/3/0/8/08982-03-L.jpg)(100µF- 1000µF)
-	Akkupack für Smartphones
-		Maße sind am wichtigsten!
-		Idealerweiße klein und flach
-		mindestens 5000mAh (DC5V / 2A)
-	Altes (kaputtes) USB Kabel (wird zerschnitten)
+- Ein schöner Zylinder
+- mindestens 3m ws2812b LED Stripes (144 LED pro Meter) ![Ebay](http://www.ebay.de/sch/i.html?_odkw=ws2812b&_osacat=0&_from=R40&_trksid=p2045573.m570.l1311.R5.TR12.TRC2.A0.H0.Xws2812b+.TRS0&_nkw=ws2812b+144&_sacat=0)
+- Red Bear Lab BLE Nano
+- Red Bear Programmer
+- Dünne Kabel
+- Ein Stück [Lochrasterplatte](https://cdn-reichelt.de/bilder/web/xxl_ws/C900/H25PR075.png)
+- 1 ~500Ω Widerstand
+- 1 [Kondensator] https://cdn.sparkfun.com//assets/parts/2/3/0/8/08982-03-L.jpg)(100µF- 1000µF)
+- Akkupack für Smartphones
+	- Maße sind am wichtigsten!
+	- Idealerweiße klein und flach
+	- mindestens 5000mAh (DC5V / 2A)
+- Altes (kaputtes) USB Kabel (wird zerschnitten)
 ##Hilfreiches Werkzeug:
 	Breadboard und Jumper Kabel [Ebay](http://www.ebay.de/itm/830-Kontakte-Steckboard-Steckbrett-Breadboard-mit-Jumper-Wire-Kabel-Set-/272102548188?hash=item3f5a9362dc:g:Tz8AAOSwYaFWeOx4)
 	Lötkolben, Lötzinn, Entlötlitze
