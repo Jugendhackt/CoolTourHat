@@ -13,16 +13,18 @@
 	- Idealerweiße klein und flach
 	- mindestens 5000mAh (DC5V / 2A)
 - Altes (kaputtes) USB Kabel (wird zerschnitten)
-##Hilfreiches Werkzeug:
-	Breadboard und Jumper Kabel [Ebay](http://www.ebay.de/itm/830-Kontakte-Steckboard-Steckbrett-Breadboard-mit-Jumper-Wire-Kabel-Set-/272102548188?hash=item3f5a9362dc:g:Tz8AAOSwYaFWeOx4)
-	Lötkolben, Lötzinn, Entlötlitze
-	[Dritte Hand](https://img.conrad.de/medias/global/ce/5000_5999/5800/5880/5881/588124_LB_00_FB.EPS_1000.jpg)
-	[Seitenschneider](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Elektronikschere_%28smial%29.jpg/1024px-Elektronikschere_%28smial%29.jpg)
-	[Heißklebepistole](http://i.ebayimg.com/images/a/(KGrHqIOKosE0fcUZ!qPBN(SQeNZ!Q~~/s-l300.jpg)
-	sehr dünne Nadel (muss durch die Löcher im ws2812b Stripe passen)
-	stabiles schwarzes Garn (wenn es sich leicht mit der Hand zerreißen lässt, ist es nicht stabil genug)
 
->Achtung, dieses Projekt beinhaltet einige schwierige Lötstellen. Wenn du selbst wenig erfahrung im Löten hast, suche dir für die schwierigeren Stellen hilfe von einem Profi.
+##Hilfreiches Werkzeug:
+- Breadboard und Jumper Kabel [Ebay](http://www.ebay.de/itm/830-Kontakte-Steckboard-Steckbrett-Breadboard-mit-Jumper-Wire-Kabel-Set-/272102548188?hash=item3f5a9362dc:g:Tz8AAOSwYaFWeOx4)
+- Lötkolben, Lötzinn
+- Entlötlitze
+- [Dritte Hand](https://img.conrad.de/medias/global/ce/5000_5999/5800/5880/5881/588124_LB_00_FB.EPS_1000.jpg)   
+- [Seitenschneider](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Elektronikschere_%28smial%29.jpg/1024px-Elektronikschere_%28smial%29.jpg)
+- [Heißklebepistole](http://i.ebayimg.com/images/g/AG4AAOSwvc9WFoqc/s-l300.jpg)
+- sehr dünne Nadel (muss durch die Löcher im ws2812b Stripe passen)
+- stabiles schwarzes Garn (wenn es sich leicht mit der Hand zerreißen lässt, ist es nicht stabil genug)
+
+>Achtung: Dieses Projekt beinhaltet einige schwierige Lötstellen. Wenn du selbst wenig Erfahrung im Löten hast, suche dir für die schwierigeren Stellen Hilfe von einem Profi. Besuch zum Beispiel einen Hackspace in deiner Nähe.
 
 ##Schritt für Schritt
 ###1. Wie kommt der Code auf den Mikroprozessor?
