@@ -29,6 +29,8 @@
 ##Schritt für Schritt
 ###1. Wie kommt der Code auf den Mikroprozessor?
 ####1.1 Beim online Compiler anmelden
+Schließe den Red Bear Lab BLE Nano auf dem Programmer an einen USB-Port deines Computers an. Dieser erscheint als USB-Speichermedium in deinem Dateibrowser. Öffne die sich auf diesem befindende Datei „MBED.HTM“ mit deinem Browser. Du wirst nun auf die mbed.org Seite weitergeleitet. Falls du dies noch nicht getan hast, erstelle dir dort einen Account.
+>Hinweis: Es ist technisch nicht erforderlich deine echte E-Mailadresse oder deinen echten Namen anzugeben, da vor Benutzung des Compilers keine E-Mailbestätigung stattfindet.
 ####1.2 Testcode auf den Prozessor laden
 ####1.3 Problemlösungstipps
 
