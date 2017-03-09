@@ -7,7 +7,7 @@
 - Dünne Kabel
 - Ein Stück [Lochrasterplatte](https://cdn-reichelt.de/bilder/web/xxl_ws/C900/H25PR075.png)
 - 1 ~500Ω Widerstand
-- 1 [Kondensator] https://cdn.sparkfun.com//assets/parts/2/3/0/8/08982-03-L.jpg)(100µF- 1000µF)
+- 1 [Kondensator](https://cdn.sparkfun.com//assets/parts/2/3/0/8/08982-03-L.jpg) (100µF- 1000µF)
 - Akkupack für Smartphones
 	- Maße sind am wichtigsten!
 	- Idealerweiße klein und flach
