@@ -24,15 +24,19 @@
 - sehr dünne Nadel (muss durch die Löcher im ws2812b Stripe passen)
 - stabiles schwarzes Garn (wenn es sich leicht mit der Hand zerreißen lässt, ist es nicht stabil genug)
 
->Achtung: Dieses Projekt beinhaltet einige schwierige Lötstellen. Wenn du selbst wenig Erfahrung im Löten hast, suche dir für die schwierigeren Stellen Hilfe von einem Profi. Besuch zum Beispiel einen Hackspace in deiner Nähe.
+>Achtung: Dieses Projekt beinhaltet einige schwierige Lötstellen. Wenn du selbst wenig Erfahrung im Löten hast, suche dir für die schwierigeren Stellen Hilfe von einem Profi. Besuche zum Beispiel einen Hackspace in deiner Nähe.
 
 ##Schritt für Schritt
 ###1. Wie kommt der Code auf den Mikroprozessor?
 ####1.1 Beim online Compiler anmelden
 Schließe den Red Bear Lab BLE Nano auf dem Programmer an einen USB-Port deines Computers an. Dieser erscheint als USB-Speichermedium in deinem Dateibrowser. Öffne die sich auf diesem befindende Datei „MBED.HTM“ mit deinem Browser. Du wirst nun auf die mbed.org Seite weitergeleitet. Falls du dies noch nicht getan hast, erstelle dir dort einen Account.
 >Hinweis: Es ist technisch nicht erforderlich deine echte E-Mailadresse oder deinen echten Namen anzugeben, da vor Benutzung des Compilers keine E-Mailbestätigung stattfindet.
-####1.2 Testcode auf den Prozessor laden
-####1.3 Problemlösungstipps
+
+####1.2 Code importieren
+Besuche das [CoolTourHat-Repository auf mbed.org](https://developer.mbed.org/users/pajowu/code/CoolTourHat/). Klicke in der „Repository toolbox“ auf „Import into Compiler“ und im aufgehenden Dialog auf „Import“.
+####1.3 Interessen eintragen
+Noch nicht implementiert
+####1.4 Problemlösungstipps
 
 ###2. LED Stripes testen
 Bevor die LED-Streifen verbaut werden, muss sichergestellt werden, dass sie auch einwandfrei funktionieren. Zum Aufbau des Tests eignen sich Breadboard und Jumperkabel.
