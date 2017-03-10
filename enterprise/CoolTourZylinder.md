@@ -37,6 +37,8 @@ Besuche das [CoolTourHat-Repository auf mbed.org](https://developer.mbed.org/use
 ####1.3 Interessen eintragen
 Noch nicht implementiert
 ####1.4 Problemlösungstipps
+- Du bekommst eine failed.txt mit dem Inhalt: „The interface firmware FAILED to reset/halt the target MCU“
+Hast du den Chip richtig auf dem Programmer aufgesteckt. Der Chip muss auf dem Programmer so stecken, dass er hinten übersteht.
 
 ###2. LED Stripes testen
 Bevor die LED-Streifen verbaut werden, muss sichergestellt werden, dass sie auch einwandfrei funktionieren. Zum Aufbau des Tests eignen sich Breadboard und Jumperkabel.
