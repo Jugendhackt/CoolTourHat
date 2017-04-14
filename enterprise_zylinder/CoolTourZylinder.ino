@@ -15,18 +15,19 @@
 #endif
 
 #define PIN 10
+int blepin = 7;
+int x = matrix.width();
+int alarm;
 
 
 
-
-
-void add(char const *string,int colorMode,  rgb color);
+//void add(char const *string,int colorMode,  rgb color);
 
 
 void generateListElements(){
   add("JUGEND HACKT ss ", COLOR_MODE_HSV_RAINBOW, {});
-  add("CYBER", COLOR_MODE_SINGLE, {200,200,0});
-  add("POLIZEI ss ", COLOR_MODE_SINGLE, {0,200,200});
+  add("HAST DU NOCH NIE", COLOR_MODE_SINGLE, {200,200,0});
+  add("EINEN HUT GESEHEN? ss ", COLOR_MODE_SINGLE, {0,200,200});
   add("PINK FLUFFY UNICORNS DANCING ON RAINBOWS ss ", COLOR_MODE_SINUS_RAINBOW,{});
 }
 
@@ -60,7 +61,7 @@ void add(char const *string,int colorMode,  rgb color){
 
 
 int printColorCodedText(){
-  int length=0;
+  int length = 0;
   colorString* listElPointer = firstListEl;
   while(listElPointer){
     
@@ -131,23 +132,24 @@ int continuous(int str_len,int x){
 
 void setup() {
   Serial.begin(115200);
+  pinMode(blepin, INPUT);
   matrix.begin();
   matrix.setTextWrap(false);
   matrix.setBrightness(50);
   generateListElements();
   //matrix.setTextColor(colors[0]);
-
 }
-int x    = matrix.width();
-
 
 void loop() {
 
   matrix.fillScreen(1);
   matrix.setCursor(x, 0);
-
+  alarm = digitalRead(blepin);
+  if(blepin == LOW){
+    //TODO ALLES ENTFERNEN
+    add("ALARM", COLOR_MODE_SINGLE, {200,0,0});
+    }
   int str_len = printColorCodedText();
- 
   x = continuous(str_len,x);
   matrix.show();
   delay(75);
